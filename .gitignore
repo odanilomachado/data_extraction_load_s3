@@ -1,4 +1,4 @@
 # aws
-aws_cliente.cfg
+config/aws_cliente.cfg
 
-aws_s3.cfg
+config/aws_s3.cfg
