@@ -13,4 +13,6 @@
 
 ## Dependências do projeto
 
+- [Python 3.13](https://www.python.org)
+
 
