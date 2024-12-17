@@ -21,7 +21,19 @@
 <img src='./docs/extracted_files.png' alt='Extração e Carregamento de dados em bucket S3 na AWS'/>
 </div>
   
-  Uma vez salvos, o script data_load_s3_ingestion.py varre a pasta data, seleciona os aquivos de interesse a carrega na camada de ingestão do Data Lake.
+  Uma vez salvos, o script data_load_s3_ingestion.py varre a pasta data, seleciona os aquivos de interesse a carrega na camada de ingestão do Data Lake:
+
+<div style='background-color:#fff;padding:24px;'>
+<img src='./docs/folders.png' alt='Extração e Carregamento de dados em bucket S3 na AWS'/>
+</div>
+
+<div style='background-color:#fff;padding:24px;'>
+<img src='./docs/faturas.png' alt='Extração e Carregamento de dados em bucket S3 na AWS'/>
+</div>
+
+<div style='background-color:#fff;padding:24px;'>
+<img src='./docs/pagamentos.png' alt='Extração e Carregamento de dados em bucket S3 na AWS'/>
+</div>
 
 ## Dependências do projeto
 
