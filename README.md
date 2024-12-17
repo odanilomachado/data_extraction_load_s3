@@ -19,8 +19,8 @@
 
 | Serviço         | Recurso                           | Descrição                             |
 | --------------- | --------------------------------- | ------------------------------------- |
-| **IAM**         | Policy                            | EMR, S3 and EC2 Predefined Access.    |
-| **S3**          | Data Lake Bucket                  | Storage data source and target.       |
+| **IAM**         | Policy                            | S3 Predefined Access                  |
+| **S3**          | Data Lake Bucket                  | Storage data source and target        |
 
 ## Execução do projeto
 
