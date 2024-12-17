@@ -15,4 +15,12 @@
 
 - [Python 3.13](https://www.python.org)
 
+## Serviços e recursos
+
+  A tabela abaixo mostra os serviços e recursos da AWS que foram utilizados:
+
+| Service         | Resources                         | Description                           |
+| --------------- | --------------------------------- | ------------------------------------- |
+| **IAM**         | Policy                            | EMR, S3 and EC2 Predefined Access.    |
+| **S3**          | Data Lake Bucket                  | Storage data source and target.       |
 
