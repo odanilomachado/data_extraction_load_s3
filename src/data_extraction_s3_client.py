@@ -5,7 +5,7 @@ from datetime import datetime
 
 def get_s3_cliente_credentials():
     config = ConfigParser()
-    config_file_dir = f'{os.getcwd()}/aws_cliente.cfg'
+    config_file_dir = os.path.join(os.path.dirname(__file__), '../config/aws_cliente.cfg')
     config.read_file(open(config_file_dir))
     region = config.get('AWS_CLIENTE','region')
     aws_access_key_id = config.get('AWS_CLIENTE','aws_access_key_id')
@@ -30,10 +30,10 @@ def download_data_from_s3_cliente(bucket_name, filename, object_name):
     )
 
     try:
-        response = s3_client.download_file(bucket_name, filename, object_name)
+        s3_client.download_file(bucket_name, object_name, filename)
         print(f'File {filename} downloaded from {bucket_name}/{object_name}')
     except Exception as e:
         print(f'Failed to download {filename} from {bucket_name}/{object_name}. Error: {e}')
 
-download_data_from_s3_cliente('bkt-edj-ped-datalake-dev', 'ingestion/tb_faturas/', 'tb_faturas_' + ref_processing_dates() + '.csv')
-download_data_from_s3_cliente('bkt-edj-ped-datalake-dev','ingestion/tb_pagamentos/', 'tb_pagamentos_' + ref_processing_dates() + '.csv')
+download_data_from_s3_cliente('bkt-edj-ped-datalake-dev', 'data/tb_faturas_' + ref_processing_dates() + '.csv', 'ingestion/tb_faturas/')
+download_data_from_s3_cliente('bkt-edj-ped-datalake-dev', 'data/tb_pagamentos_' + ref_processing_dates() + '.csv', 'ingestion/tb_pagamentos/')
