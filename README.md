@@ -8,7 +8,7 @@
   Nesta primeira etapa, os dados foram extraídos de buckets S3 sob responsabilidade da empresa, que forneceu o acesso necessário. O diagrama a seguir ilustra o processo que foi executado.
 
 <div style='background-color:#fff;padding:24px;'>
-<img src='./docs/images/project_intro.png' alt='Extração e Carregamento de dados em bucket S3 na AWS'/>
+<img src='./docs/project_intro.png' alt='Extração e Carregamento de dados em bucket S3 na AWS'/>
 </div>
 
 
