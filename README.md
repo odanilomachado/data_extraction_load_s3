@@ -4,7 +4,7 @@
 
 ## Introdução
 
-  Este projeto consiste na apresentação da primeira etapa da construção de um Data Lake dentro da AWS. Os dados (fictícios) utilizados foram fornecidos por uma empresa (fictícia) de servições financeiros especializada em cartão de crédito, a qual busca uma solução de engenharia de dados para garantir eficiência e escalabilidade nas suas operações, além de um processamento dos dados que garanta uma capacitação para modelagem preditiva do time de cientistas de dados.
+  Este projeto consiste na apresentação da primeira etapa da construção de um Data Lake dentro da AWS. Os dados (fictícios) utilizados foram fornecidos por uma empresa (fictícia) de serviços financeiros especializada em cartão de crédito, a qual busca uma solução de engenharia de dados para garantir eficiência e escalabilidade nas suas operações, além de um processamento dos dados que garanta uma capacitação para modelagem preditiva do time de cientistas de dados.
 
 ## Dependências do projeto
 
