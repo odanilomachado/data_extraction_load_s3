@@ -20,7 +20,7 @@
 
   A tabela abaixo mostra os serviços e recursos da AWS que foram utilizados:
 
-| Service         | Resources                         | Description                           |
+| Serviço         | Recurso                           | Descrição                             |
 | --------------- | --------------------------------- | ------------------------------------- |
 | **IAM**         | Policy                            | EMR, S3 and EC2 Predefined Access.    |
 | **S3**          | Data Lake Bucket                  | Storage data source and target.       |
