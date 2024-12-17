@@ -40,7 +40,7 @@ def upload_to_s3(filename, bucket_name, object_name):
         aws_secret_access_key = aws_secret_access_key
     )
 
-    object_path = object_name + 'dados/' + filename
+    object_path = object_name + filename
 
     try:
         s3.upload_file(filename, bucket_name, object_path)
