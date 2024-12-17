@@ -15,7 +15,12 @@
 </div>
 
 
-  Os dados brutos foram extraídos no formato .csv e salvos localmente incluindo a data de referência (ref) e a data_hora de processamento (proc). Esta etapa foi executada com o script data_extraction_s3_cliente.py.
+  Os dados brutos foram extraídos no formato .csv e salvos localmente incluindo a data de referência (ref) e a data_hora de processamento (proc). Esta etapa foi executada com o script data_extraction_s3_cliente.py. Após a execução, os arquivos são salvos na pasta data:
+
+<div style='background-color:#fff;padding:24px;'>
+<img src='./docs/extracted_files.png' alt='Extração e Carregamento de dados em bucket S3 na AWS'/>
+</div>
+  
   Uma vez salvos, o script data_load_s3_ingestion.py varre a pasta data, seleciona os aquivos de interesse a carrega na camada de ingestão do Data Lake.
 
 ## Dependências do projeto
